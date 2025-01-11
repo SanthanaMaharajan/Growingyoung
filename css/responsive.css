@@ -1,0 +1,608 @@
+@media only screen and (max-width:767px) and (orientation:portrait){
+    .header_section .menu{
+        width: 100%;
+        z-index: 100;
+        background-color: #fff;
+        text-align: center;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+   
+    .header_section .menu.active_menu{
+        opacity: 1;
+        visibility: visible;
+    }
+    .header_section .menu{
+        width: 100%;
+    }
+    .header_section .menu ul{
+        padding-top: 50px;
+    }
+    .header_section .menu ul li{
+        display: block;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+    .header_section .menu ul li a{
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .news_btn2 {
+        margin-top: 80px;
+    }
+   
+    .mobile_btn {
+        position: fixed;
+        right: 60px;
+        top: 25px;
+        z-index: 999;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu.active.btn_1{
+        transform: rotate(40deg) translate(8px,8px);    
+    }
+    .mobile_btn .mobile_menu.active.btn_2{
+        opacity: 0;
+    }
+    .mobile_btn .mobile_menu.active.btn_3{
+        transform: rotate(-40deg) translate(5px,-3px);
+    }
+    .header_section .logo{
+        text-align: left;
+    }
+    .mobile_btn{
+        top: 30px;
+    }
+    .header_section .header_sec{
+        width: 100%;
+        border-radius: 0px;
+        position: fixed !important;
+        background-color: #fff;
+    }
+    .meet_our_team{
+        margin: 0px !important;
+    }
+    .meet_cont .meet_item .inner_item{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .meet_cont .meet_item:hover{
+        background: transparent;
+    }
+    .meet_cont .meet_item{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .meet_cont .owl-next{
+        right: 0px;
+    }
+    .meet_cont .owl-prev{
+        left: 0px;
+    }
+    .slider_section .slider_cont h1{
+        font-size: 40px;
+    }
+    .slider_section .slider_cont p{
+        font-size: 18px;
+    }
+    .about_section{
+        background-color: #f7f7f7;
+    }
+    .about_section .about_img img{
+        margin-bottom: 30px;
+    }
+    .about_section .about_cont h2{
+        font-size: 22px;
+    }
+    .upcoming_cont .list_box .lest_img img{
+        width: 60px;
+        height: 60px;
+    }
+    .upcoming_cont .list_box .ticket_part a{
+        padding:0px 10px;
+    }
+    .upcoming_cont .list_box .name_part h5{
+        font-size: 14px;
+    }
+    .upcoming_cont .list_box .lest_img{
+        margin-bottom: 40px;
+    }
+    .upcoming_cont .list_box .date_part{
+        margin-bottom: 20px;
+    }
+    .upcoming_cont .list_box .lest_img h2 {
+        font-size: 14px;
+        padding-left: 70px;
+    }
+    .upcoming_cont .list_box .lest_img p{
+        padding-left: 70px;
+    }
+    .upcoming_cont .list_box .date_part h3{
+        font-size: 30px;
+    }
+    .news_lt_sect .news_lt_img{
+        height: auto;
+    }
+    .news_lt_text .news_lt_cont h3 a{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .news_lt_text .news_lt_cont p{
+        font-size: 14px;
+    }
+    .news_section {
+        background-color: #f7f7f7;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .video_section{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .music_artists .music_part .music_artists_cont h2{
+        font-size: 35px;
+    }
+    .music_artists .music_part .music_artists_cont h4{
+        font-size: 16px;
+    }
+    .music_artists{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .music_top {
+        position: absolute;
+        top:10%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        z-index: 1;
+    }
+    .music_num {
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+    }
+    .music_top h3 {
+        font-size:18px;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .music_part {
+        background-image: url(../images/sheld.webp);
+        height: 49vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .music_artists .music_part .music_artists_cont h4 {
+        font-size: 5px;
+    }
+    .footer_section .footer_menu h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .header_section .menu ul{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .header_section .menu li a{
+        padding: 15px 10px;
+    }
+    .head_name h3{
+        display: none;
+    }
+    .head_name p{
+        display: none;
+    }
+    .blog_head {
+        font-family: "Montserrat", sans-serif;
+        padding-top:50px;
+    }
+    .meet_our_team {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .founder_img img {
+        width:90%;
+        margin-left:15px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .logo_sec {
+        padding-top:20px;
+    }
+    .upcoming_cont .list_box .lest_img h2 {
+        font-size: 14px;
+        padding-left: 82px;
+    }
+
+
+    /* Inner Pages*/
+
+    .page_banner_content{
+        width: 70%;
+    }
+    #inner_team{
+        background-color: #f7f7f7;
+    }
+    .founder_cont img{
+        width: 100%;
+    }
+    .contact_part .submit_btn button{
+        margin-bottom: 30px;
+    }
+    .contact_location .itme{
+        width: 98%;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .header_section.sticky .menu li a{
+        color: #000;
+    }
+    .header_section.sticky .header_sec{
+      box-shadow: 0px 5px 15px #333 !important;
+    
+    }
+}   
+
+@media only screen and (max-width:767px) and (orientation:landscape){
+    
+	.header_section .menu{
+        width: 100%;
+        z-index: 100;
+        background-color: #fff;
+        text-align: center;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .header_section .menu.active_menu{
+        opacity: 1;
+        visibility: visible;
+    }
+   
+    .header_section .menu{
+        width: 100%;
+    }
+    .header_section .menu ul li{
+        display: block;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+    .header_section .menu ul li a{
+        color: #fff;
+    }
+    .mobile_btn {
+        position: fixed;
+        right: 25px;
+        top: 25px;
+        z-index: 999;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu{
+        width: 40px;
+        height: 3px;
+        background-color: #201e1f;
+        display:block;
+        margin-bottom: 5px;
+    }
+    .mobile_btn .mobile_menu.active.btn_1{
+        transform: rotate(40deg) translate(8px,8px);    
+    }
+    .mobile_btn .mobile_menu.active.btn_2{
+        opacity: 0;
+    }
+    .mobile_btn .mobile_menu.active.btn_3{
+        transform: rotate(-40deg) translate(5px,-3px);
+    }
+    .header_section .logo{
+        text-align: left;
+    }
+    .mobile_btn{
+        top: 30px;
+    }
+    .header_section .header_sec{
+        width: 100%;
+        border-radius: 0px;
+        position: fixed !important;
+        background-color: #fff;
+    }
+    .meet_our_team{
+        margin: 0px !important;
+    }
+    
+    .meet_cont .meet_item:hover{
+        background: transparent;
+    }
+    .meet_cont .meet_item .meet_hover p{
+        top: 65%;
+    }
+    .meet_cont .owl-next{
+        display: none;
+    }
+    .meet_cont .owl-prev{
+        display: none;
+    }
+    .slider_section .slider_cont h1{
+        font-size: 40px;
+    }
+    .slider_section .slider_cont p{
+        font-size: 18px;
+    }
+    .about_section .about_img img{
+        margin-bottom: 30px;
+    }
+    .about_section .about_cont h2{
+        font-size: 22px;
+    }
+    .upcoming_cont .list_box .lest_img img{
+        width: 80px;
+        height: 80px;
+    }
+    .upcoming_cont .list_box .ticket_part a{
+        padding:0px 10px;
+    }
+    .upcoming_cont .list_box .name_part h5{
+        font-size: 14px;
+    }
+    .upcoming_cont .list_box .lest_img{
+        margin-bottom: 40px;
+    }
+    .upcoming_cont .list_box .date_part{
+        margin-bottom: 20px;
+    }
+    .upcoming_cont .list_box .lest_img h2 {
+        font-size: 14px;
+        padding-left: 82px;
+    }
+    .upcoming_cont .list_box .lest_img p{
+        padding-left: 90px;
+    }
+    .upcoming_cont .list_box .date_part h3{
+        font-size: 30px;
+    }
+    .news_lt_sect .news_lt_img{
+        height: auto;
+    }
+    .news_lt_text .news_lt_cont h3 a{
+        font-size: 16px;
+        line-height: 27px;
+    }
+  
+    .news_lt_text .news_lt_cont p{
+        font-size: 14px;
+    }
+    .music_artists .music_part .music_artists_cont h2{
+        font-size: 40px;
+    }
+    .music_artists .music_part .music_artists_cont h4{
+        font-size: 18px;
+    }
+    .footer_section .footer_menu h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .header_section .menu ul{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .header_section .menu li a{
+        padding: 15px 10px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .header_section.sticky .menu li a{
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .header_section .menu li a{
+        color: #000 !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    /* Inner Pages*/
+
+    .page_banner_content{
+        width: 70%;
+    }
+    #inner_team{
+        background-color: #f7f7f7;
+    }
+    .founder_cont img{
+        width: 100%;
+    }
+    .contact_part .submit_btn button{
+        margin-bottom: 30px;
+    }
+    .contact_location .itme{
+        width: 98%;
+    }
+    .slider_section .carousel-inner .item.slider_img{
+        height: 400px;
+    }
+    .social_links .list_icon{
+        top: 60%;
+    }
+    .slider_section .slider_cont{
+        top: 60%;
+    }
+    .video_section .video_part .video_cont h3{
+        font-size: 13px;
+    }
+    .video_section .video_part .video_cont p{
+        font-size: 14px;
+    }
+    .video_section .video_part .play_btn i{
+        right: 10px;
+        bottom: 10px;
+    }
+    .video_section .video_part .video_cont{
+        padding: 10px 25px;
+    }
+    .video_section .video_part .play_btn i{
+        font-size: 30px;
+    }
+    .header_section.sticky .header_sec{
+      box-shadow: 0px 5px 15px #333 !important;
+    
+    }
+    .footer_section .subscribe_sec input{
+        width: 60%;
+    }
+    .footer_section .subscribe_sec button{
+        left: 50%;
+    }
+    
+}
+@media only screen and (min-width:767px) and (max-width: 991px) and (orientation:portrait){
+    
+	.slider_section .carousel-inner .item.slider_img{
+        height: 450px;
+    }
+    .slider_section .slider_cont h1{
+        font-size: 40px;
+    }
+    .meet_our_team .owl-carousel .owl-nav .owl-prev{
+        display: none;
+    }
+    .meet_our_team .owl-carousel .owl-nav .owl-next{
+        display: none;
+    }
+    .about_section .about_cont h2{
+        font-size: 20px;
+    }
+    .upcoming_cont .list_box .ticket_part a{
+        padding: 0px 0px 5px;
+    }
+    .upcoming_cont .list_box .date_part h3{
+        font-size: 30px;
+    }
+    .music_artists .music_part .music_artists_cont h2{
+        font-size: 40px;
+    }
+    .music_artists .music_part .music_artists_cont h4{
+        font-size: 18px;
+    }
+    .footer_section .footer_menu h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .video_section .video_part .video_cont{
+        padding: 20px 10px;
+    }
+    .video_section .video_part .play_btn i{
+        font-size: 30px;
+        bottom: 25px;
+    }
+    .page_banner_content{
+        width: 35%;
+    }
+    .news_lt_sect{
+        margin-bottom: 30px;
+    }
+    .contact_location .itme{
+        height: 130px;
+    }
+
+    .meet_cont .meet_item .meet_hover p{
+        top: 70%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation:landscape){
+	.about_section .about_cont .right_cont_part{
+        padding: 10px;
+    }
+    .about_section .about_bottom_cont .left_cont_part ul li{
+        padding: 14px 0px;
+    }
+    .about_section .about_bottom_cont .left_cont_part ul li a{
+        font-size: 14px;
+    }
+
+    .contact_location .itme{
+        height: 130px;
+    }
+    .meet_cont .meet_item .meet_hover p{
+        top: 65%;
+    }
+
+}
+@media only screen and (min-width:1300px){
+
+
+}
+
+@media only screen and (max-width:320px) and (orientation:portrait){
+   
+}   
+
+
+
+
+
